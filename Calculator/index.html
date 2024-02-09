@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+           Simple  Calculator
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        
+            <div class="calculator">
+                <input type="text"  id="display" disabled>
+                <div class="keys">
+                <button onclick="numberToDisplay('7')">7</button>
+                <button onclick="numberToDisplay('8')">8</button>
+                <button onclick="numberToDisplay('9')">9</button>
+                <button onclick="numberToDisplay('6')">6</button>
+                <button onclick="numberToDisplay('5')">5</button>
+                <button onclick="numberToDisplay('4')">4</button>
+                <button onclick="numberToDisplay('3')">3</button>
+                <button onclick="numberToDisplay('2')">2</button>
+                <button onclick="numberToDisplay('1')">1</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="numberToDisplay('+')">+</button>
+                <button onclick="numberToDisplay('-')">-</button>
+                <button onclick="numberToDisplay('*')">x</button>
+                <button onclick="numberToDisplay('/')">/</button>
+                <button onclick="calculate('=')">=</button>
+            </div>
+        </div>
+        <script src="App.js"></script>
+    </body>
+</html>
